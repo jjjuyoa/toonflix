@@ -19,6 +19,9 @@ class Episode extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String titleToShow = episode.title.length > 18
+        ? episode.title.substring(0, 18) + "..."
+        : episode.title;
     return GestureDetector(
       onTap: onButtonTap,
       child: Container(
@@ -45,7 +48,7 @@ class Episode extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                episode.title,
+                titleToShow,
                 style: TextStyle(
                   color: Colors.green.shade400,
                   fontSize: 16,

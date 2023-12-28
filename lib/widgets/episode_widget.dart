@@ -35,7 +35,7 @@ class Episode extends StatelessWidget {
               ),
             ],
             border: Border.all(
-              color: Colors.green.shade400,
+              color: Colors.blue.shade400,
             ),
             borderRadius: BorderRadius.circular(20),
             color: Colors.white),
@@ -50,13 +50,13 @@ class Episode extends StatelessWidget {
               Text(
                 titleToShow,
                 style: TextStyle(
-                  color: Colors.green.shade400,
+                  color: Colors.blue.shade400,
                   fontSize: 16,
                 ),
               ),
               Icon(
                 Icons.chevron_right,
-                color: Colors.green.shade400,
+                color: Colors.blue.shade400,
               ),
             ],
           ),

@@ -72,7 +72,7 @@ class _DetailScreenState extends State<DetailScreen> {
       appBar: AppBar(
         elevation: 2,
         backgroundColor: Colors.white,
-        foregroundColor: Colors.green,
+        foregroundColor: Colors.blue,
         actions: [
           IconButton(
             onPressed: () {
